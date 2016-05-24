@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+
+nav{
+    height: 50px;
+    background-color: #272727;
+    opacity: .8;
+    position: fixed;
+    width: 100%;
+    
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(51,51,51,1);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(51,51,51,1);
+    box-shadow: 0px 1px 2px 0px rgba(51,51,51,1);
+}
+
+nav ul{
+    float: right;
+    margin: 0;
+}
+nav ul li{
+    padding-top: 15px;
+    padding-right: 15px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    opacity: .75;
+}
+
+#container img{
+    width: 100%;
+    display: block;
+}
+
+.navigation_buttons{
+    margin: 0;
+    right: 1vw;
+}
+
+.top{
+    padding-top: 50px;
+}
+
+.thirteen{
+    position: absolute;
+    top: 46.85vw;
+}
+
+.fourteen{
+    position: absolute;
+    top: 86.55vw
+}
+
+.fifteen{
+    position: absolute;
+    top: 126.75vw
+}
+
+.sixteen{
+    position: absolute;
+    top: 154.10vw;
+}
+
+.six{
+    margin: 0;
+}
+.navigation_buttons li{
+    right: 0;
+    width: .85vw;
+    height: .85vw;
+    border: solid 1px white;
+    opacity: .25;
+    border-radius: 50%;
+    padding-bottom: 0vw;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.navigation_buttons li.view{
+    background-color: white;
+}
+
+footer{
+    padding-top: 25px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #272727;
+    color: gray;
+    text-align: center;
+    height: 50px;
+}
